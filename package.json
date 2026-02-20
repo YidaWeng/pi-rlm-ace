@@ -1,0 +1,30 @@
+{
+  "name": "pi-rlm-ace",
+  "version": "1.0.0",
+  "description": "RLM + ACE Super-Agent for Pi Coding Agent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pi-package"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "pi": {
+    "extensions": [
+      "./extensions/rlm-core.ts"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts"
+    ]
+  },
+  "devDependencies": {
+    "@mariozechner/pi-coding-agent": "^0.54.0",
+    "@sinclair/typebox": "^0.34.48"
+  }
+}
