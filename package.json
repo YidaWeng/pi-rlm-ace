@@ -14,7 +14,8 @@
   "type": "commonjs",
   "pi": {
     "extensions": [
-      "./extensions/rlm-core.ts"
+      "./extensions/rlm-core.ts",
+      "./extensions/rlm-recurse.ts"
     ],
     "skills": [
       "./skills"
