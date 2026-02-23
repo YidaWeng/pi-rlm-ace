@@ -15,7 +15,8 @@
   "pi": {
     "extensions": [
       "./extensions/rlm-core.ts",
-      "./extensions/rlm-recurse.ts"
+      "./extensions/rlm-recurse.ts",
+      "./extensions/ace-orchestrator.ts"
     ],
     "skills": [
       "./skills"
